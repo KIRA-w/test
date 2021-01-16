@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		<style type="text/css">
+			.img{
+				width: 800px
+			}
+			.h1{
+				text-align: center;
+				color: 
+			}
+			.center{
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.img{
+				background-image: url(at.jpg);
+				height: 600px;
+				background-size: 100% 100%;
+				width: 800px;
+				margin-left: auto; margin-right: auto;
+			}
+			.img2{
+				background-image: url(amazing.jpg);
+				height: 600px;
+				background-size: 100% 100%;
+				width: 800px;
+				margin-left: auto; margin-right: auto;
+			}
+			.img3{
+				background-image: url(rm.jpg);
+				height: 600px;
+				background-size: 100% 100%;
+				width: 800px;
+				margin-left: auto; margin-right: auto;
+			}
+			.otvet1{
+				background: blue;
+				margin-left: 530px;
+				margin-right: 530px
+			}
+			.otvet2{
+				background: green;
+				margin-left: 530px;
+				margin-right: 530px
+			}
+			.otvet3{
+				background: red;
+				margin-left: 530px;
+				margin-right: 530px
+			}
+			.o1{
+				text-align: center;
+			}
+			.o2{
+				text-align: center;
+			}
+			.o3{
+				text-align: center;
+			}
+			.test2{
+
+			}
+		</style>
+<div class="test1">
+	<div class="h1">
+			<h1>Сколько сезонов в мульт-сериале Advanture Time?</h1>
+	</div>
+	<div class="img">
+	</div>
+	<div class="otvet1">
+		<h1 class="o1">8</h1>
+	</div>
+	<div class="otvet2">
+		<h1 class="o2">10</h1>
+	</div>
+	<div class="otvet3 h1">
+		<h1 class="o3">12</h1>
+	</div>
+</div>
+<div class="test2">
+	<div class="h1">
+			<h1>Дата выхода мульт-сериала Amazing World of Gumball?</h1>
+	</div>
+	<div class="img2">
+	</div>
+	<div class="otvet1">
+		<h1 class="a1 h1">1 апреля 2008</h1>
+	</div>
+	<div class="otvet2">
+		<h1 class="a2 h1">24 декабря 2011</h1>
+	</div>
+	<div class="otvet3 h1">
+		<h1 class="a3 h1">3 мая 2011</h1>
+	</div>
+</div>
+<div class="test3">
+	<div class="h1">
+			<h1>Создатели Rick and Morty?</h1>
+	</div>
+	<div class="img3">
+	</div>
+	<div class="otvet1">
+		<h1 class="b1 h1">Джастин Ройланд Дэн Хармон</h1>
+	</div>
+	<div class="otvet2">
+		<h1 class="b2 h1">Бен Боклет</h1>
+	</div>
+	<div class="otvet3 h1">
+		<h1 class="b3">Пендлтон Уорд</h1>
+	</div>
+</div>
+	<script type="text/javascript">
+		document.querySelector('.test2').style.display = 'none'
+		document.querySelector('.test3').style.display = 'none'
+		document.querySelector('.o1').onclick = function(){
+			alert('неправильно')
+		}
+		document.querySelector('.o3').onclick = function(){
+			alert('неправильно')
+		}
+		document.querySelector('.o2').onclick = function(){
+			alert('правильно')
+			document.querySelector('.test1').style.display = 'none'
+			document.querySelector('.test2').style.display = 'block'
+
+		}
+		document.querySelector('.a1').onclick = function(){
+			alert('неправильно')
+		}
+		document.querySelector('.a2').onclick = function(){
+			alert('неправильно')
+		}
+		document.querySelector('.a3').onclick = function(){
+			alert('правильно')
+			document.querySelector('.test2').style.display = 'none'
+			document.querySelector('.test3').style.display = 'block'
+		}
+		document.querySelector('.b1').onclick = function(){
+			alert('правильно')
+		}
+		document.querySelector('.b2').onclick = function(){
+			alert('неправильно')
+		}
+		document.querySelector('.b3').onclick = function(){
+			alert('неправильно')
+		}
+
+	</script>
+</body>
+</html>
